@@ -1,0 +1,50 @@
+・ローカルリポジトリ
+--------------------git add
+・ステージングエリア
+--------------------git commit
+・リポジトリ
+
+
+バージョン確認
+git --version
+
+リポジトリ作成
+git init
+
+ステージング確認
+git status
+
+ステージングに仮登録
+git add ファイル名
+
+ステージングにまとめて仮登録
+git add .
+
+ステージングエリアの内容をコミット
+git commit
+
+仮登録と同時にコミット
+git commit -a
+
+コミットメッセージを同時に指定する
+git commit -m "commit message"
+
+
+コミット履歴の確認
+git log
+
+コミットメッセージのみを表示
+git log --oneline
+
+コミットログの1つ表示
+git log -1
+
+ステータス情報の確認
+git status -s
+
+ブランチの確認
+git branch
+
+ブランチの切り替え
+git checkout ブランチ名
+
